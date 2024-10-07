@@ -1,27 +1,31 @@
-# UiApp
+# Interface da Aplicação de Registro de Usuários
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
+Este projeto é uma aplicação de registro de usuários, construída com Java e Spring Boot, que utiliza PostgreSQL como banco de dados. Este repositório contém tanto a parte do backend quanto a do frontend.
 
-## Development server
+## Estrutura do Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[- **Backend**: Implementado em Java com Spring Boot.](https://github.com/sleevs/user-registry)
+- **Frontend**: Desenvolvido com Angular.
 
-## Code scaffolding
+## Pré-requisitos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Antes de começar, você precisará ter instalado em sua máquina:
 
-## Build
+- [Java 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) ou superior
+- [Maven](https://maven.apache.org/download.cgi)
+- [Docker](https://www.docker.com/get-started) - OPCIONAL
+- [Node.js](https://nodejs.org/) (inclui o npm)
+- [Angular CLI](https://angular.io/cli)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Executar a Aplicação Frontend
 
-## Running unit tests
+ Navegue até o diretório do frontend:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Instale as dependências:
 
-## Running end-to-end tests
+npm install
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
+Inicie a aplicação Angular:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+ng serve
